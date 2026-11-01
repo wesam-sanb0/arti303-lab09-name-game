@@ -1,0 +1,26 @@
+83 ?- consult('C:/Users/wesam/Downloads/college/Artificial Intelligence Princi-FS02/namegame.pl').
+true.
+
+84 ?- assertz(letter(a)).
+true.
+
+85 ?- assertz(letter(b)).
+true.
+
+86 ?- assertz(letter(c)).
+true.
+
+87 ?- menu.
+
+Hi. This is the "Name Game"
+You will be given a set of English letters in which you will add, delete or move to create your name.
+
+Choose from the following:
+1- Display the current set of letters
+2- Add a letter
+3- Add a letter at the top
+4- Add a letter at the bottom
+5- Delete a letter
+6- Delete all letters
+7- Exit
+Enter your choice... 
